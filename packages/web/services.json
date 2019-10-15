@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "service": "youtube",
+      "id": "UCsZUur3SucrmTiECYZvuLlw",
+      "name": "University of Bergen UiB",
+      "curl": {
+        "info": "curl 'https://www.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=UCsZUur3SucrmTiECYZvuLlw&key=AIzaSyBjkO9A3w6ItG0F0Rr3CFO_Y0rBXH2OPTQ' --header 'Accept: application/json' --compressed",
+        "list": "curl 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUsZUur3SucrmTiECYZvuLlw&key=AIzaSyBjkO9A3w6ItG0F0Rr3CFO_Y0rBXH2OPTQ' --header 'Accept: application/json' --compressed"
+      },
+      "accessToken": "[youtube.accessToken]"
+    },
+    {
+      "service": "vimeo",
+      "id": "uib",
+      "name": "UiB - Universitetet i Bergen",
+      "curl": { 
+        "info": "curl 'https://api.vimeo.com/users/uib?access_token=4053a15ab09db35b7d0a083463cdb2f4'",
+        "list": "curl 'https://api.vimeo.com/users/uib/videos?access_token=4053a15ab09db35b7d0a083463cdb2f4'"
+      },
+      "clientID": "[vimeo.clientID]",
+      "accessToken": "[vimeo.accessToken]"
+    }
+  ]
+}
